@@ -9,7 +9,6 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING,
-        defaultValue: false,
         allowNull: false,
       },
       path: {

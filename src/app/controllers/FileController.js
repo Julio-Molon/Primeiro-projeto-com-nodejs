@@ -1,4 +1,4 @@
-import File from '../models/Files';
+import File from '../models/File';
 
 class FileController {
   async store(req, res) {
@@ -9,7 +9,7 @@ class FileController {
       path,
     });
 
-    return res.json({ file });
+    return res.json(file);
   }
 }
 
